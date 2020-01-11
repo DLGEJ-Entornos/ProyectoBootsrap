@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Proyecto Boostrap - Jorge De La Guia Espi</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/estilosNoMaquetacion.css">
+  <!--link rel="stylesheet" href="./css/estilosNoMaquetacion.css"-->
   <style>
     * {
       margin: 0px;
@@ -16,11 +16,10 @@
     }
 
     body {
-      hheight: 100vh;
       min-height: 100vh;
     }
 
-    .container {
+    /* .container {
       wwidth: 1000px;
       margin: 0 auto;
     }
@@ -80,78 +79,47 @@
     footer p {
       text-align: center;
     }
-
-    /*@media screen and (max-width: 800px){
-                body{
-                  background-color: red;
-                }
-                main{
-                    width: 100%;
-                    display: block;
-                }
-                aside{
-                    width: 100%;
-                    display: block;
-                }
-                footer{
-                    width: 100%;
-                    display: block;
-                }
-            }*/
+    */
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="container border border-primary">
     <div class="row h-md-50">
-      <header class="col-12 bg-blue">
-        <h4>Header</h4>
-        <!--p>12 columnas</p-->
-        <br>
+      <header class="col-12 bg-light">
+        <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUN@2x.png" width="100" alt="logo-marca">
+          </a>
+        </nav>
       </header>
     </div>
     <div class="principal row">
-      <main class="col-sm-8 bg-white">
+      <main class="col-sm-12 bg-secondary">
         <section>
           <h4>Article</h4>
-          <!--p>8 columnas</p-->
           <br>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, dignissimos dolorem. Dolor saepe quam at laboriosam obcaecati sequi quos quisquam unde sed blanditiis exercitationem velit a, voluptatibus eos minus praesentium.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, dignissimos dolorem. Dolor saepe quam at laboriosam obcaecati sequi quos quisquam unde sed blanditiis exercitationem velit a, voluptatibus eos minus praesentium.</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, dignissimos dolorem. Dolor saepe quam at laboriosam obcaecati sequi quos quisquam unde sed blanditiis exercitationem velit a, voluptatibus eos minus praesentium.</p>
         </section>
       </main>
-      <aside class="col-sm-4 bg-info">
-        <h4>Aside</h4>
-        <!--p>4 columnas</p-->
-      </aside>
     </div>
     <div class="row">
-      <footer class="col-12 bg-orange">
+      <footer class="col-12 bg-info">
         <h4>Footer</h4>
-        <!--small>12 columnas</small-->
       </footer>
     </div>
   </div>
   <nav class="fixed-bottom" aria-label="Page navigation example">
     <ul class="pagination justify-content-center">
-      <!--li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-          <span class="sr-only">Previous</span>
-        </a>
       </li-->
       <li class="page-item"><a class="page-link" href="./act1.html">1</a></li>
       <li class="page-item"><a class="page-link" href="./act2.html">2</a></li>
       <li class="page-item"><a class="page-link" href="./act3.html">3</a></li>
-      <!--li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-          <span class="sr-only">Next</span>
-        </a>
-      </li-->
     </ul>
   </nav>
+
 </body>
 <script scr="./js/ bootstrap.min.js"></script>
 <script scr="./js/ jquery-3.4.1.min.js"></script>
